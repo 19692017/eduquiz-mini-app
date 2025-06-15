@@ -1,4 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduQuizGameBot - Subject Selector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: linear-gradient(135deg, #3f87a6, #ebf8e1);
+      margin: 0;
+      padding: 2rem;
+    }
 
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    .subjects {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 300px;
+      margin: auto;
+    }
+
+    .subjects a {
+      display: block;
+      padding: 1rem;
+      font-size: 1.2rem;
+      color: white;
+      background: #2c3e50;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s ease;
+    }
+
+    .subjects a:hover {
+      background: #1abc9c;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎓 EduQuizGameBot</h1>
+  <p>Select a subject to begin your quiz</p>
+
+  <div class="subjects">
+    <a href="quiz.html?subject=math">🧮 Math</a>
+    <a href="quiz.html?subject=biology">🧬 Biology</a>
+    <a href="quiz.html?subject=chemistry">🧪 Chemistry</a>
+    <a href="quiz.html?subject=physics">🔭 Physics</a>
+  </div>
+
+  <footer>Made with ❤️ for students in Ethiopia</footer>
+</body>
+</html>
 <!DOCTYPE html>
 <html>
 <head>
