@@ -1,50 +1,210 @@
 {
   "math": [
-    {"question":"What is the integral of 1/x dx?","options":["x","ln|x| + C","1/x²","eˣ"],"answer":"ln|x| + C"},
-    {"question":"limₓ→0 (sin x)/x = ?","options":["0","1","∞","Undefined"],"answer":"1"},
-    {"question":"Determinant of [[2,3],[1,4]] is?","options":["5","8","11","1"],"answer":"5"},
-    {"question":"What is d/dx[e^(2x)]?","options":["2e^(2x)","e^(x²)","x eˣ","e^(2x)+1"],"answer":"2e^(2x)"},
-    {"question":"Solution(s) to x² − 5x + 6 = 0?","options":["2","3","4","2 and 3"],"answer":"2 and 3"},
-    {"question":"If A ∩ B = ∅, sets A and B are?","options":["Equal","Finite","Disjoint","Universal"],"answer":"Disjoint"},
-    {"question":"Sum of arithmetic series: n terms?","options":["n(a + l)/2","a + (n−1)d","a rⁿ","n l"],"answer":"n(a + l)/2"},
-    {"question":"Inverse of y = 3x + 2 is?","options":["x = 3y + 2","y = (x − 2)/3","y = (x + 2)/3","y = 3x − 2"],"answer":"y = (x − 2)/3"},
-    {"question":"log₂ 8 = ?","options":["1","2","3","4"],"answer":"3"},
-    {"question":"If tan θ = 1, what is θ?","options":["30°","45°","60°","90°"],"answer":"45°"}
+    {
+      "question": "What is the derivative of x² + 3x + 2?",
+      "options": ["2x + 3", "x + 3", "2x", "x² + 3"],
+      "answer": 0
+    },
+    {
+      "question": "Solve: ∫(2x) dx",
+      "options": ["x² + C", "2x² + C", "2x + C", "x + C"],
+      "answer": 0
+    },
+    {
+      "question": "If log₂x = 3, then x = ?",
+      "options": ["6", "8", "9", "3"],
+      "answer": 1
+    },
+    {
+      "question": "Limit of (x² - 4)/(x - 2) as x → 2",
+      "options": ["4", "2", "0", "undefined"],
+      "answer": 0
+    },
+    {
+      "question": "What is sin(90°)?",
+      "options": ["0", "1", "0.5", "undefined"],
+      "answer": 1
+    },
+    {
+      "question": "Find x: 2^x = 16",
+      "options": ["2", "4", "8", "5"],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is irrational?",
+      "options": ["√2", "4", "0.75", "1.5"],
+      "answer": 0
+    },
+    {
+      "question": "What is the square root of 144?",
+      "options": ["12", "14", "13", "10"],
+      "answer": 0
+    },
+    {
+      "question": "What is the value of π (approx)?",
+      "options": ["3.14", "2.17", "1.41", "3.33"],
+      "answer": 0
+    },
+    {
+      "question": "Simplify: (x + 3)(x - 3)",
+      "options": ["x² - 9", "x² + 9", "x² - 6", "x² + 6"],
+      "answer": 0
+    }
   ],
   "biology": [
-    {"question":"Function of the Golgi apparatus?","options":["Photosynthesis","Protein synthesis","Packaging proteins","Energy production"],"answer":"Packaging proteins"},
-    {"question":"Molecule storing genetic information?","options":["RNA","ATP","DNA","Glucose"],"answer":"DNA"},
-    {"question":"Phase after metaphase in mitosis?","options":["Anaphase","Prophase","Telophase","Interphase"],"answer":"Anaphase"},
-    {"question":"Which is NOT a kingdom?","options":["Plantae","Protista","Fungi","Virus"],"answer":"Virus"},
-    {"question":"Main component of cell membranes?","options":["Protein","Phospholipid","DNA","Cholesterol"],"answer":"Phospholipid"},
-    {"question":"Organ producing insulin?","options":["Liver","Pancreas","Kidney","Stomach"],"answer":"Pancreas"},
-    {"question":"Role of hemoglobin?","options":["Fight disease","Clot blood","Carry oxygen","Digest proteins"],"answer":"Carry oxygen"},
-    {"question":"Which produces the most ATP?","options":["Glycolysis","Fermentation","Krebs cycle","Electron transport chain"],"answer":"Electron transport chain"},
-    {"question":"Cells that fight infection?","options":["Red","Platelets","White","Plasma"],"answer":"White"},
-    {"question":"Genetic code carried in sequences of?","options":["Amino acids","RNA","Codons","Ribosomes"],"answer":"Codons"}
+    {
+      "question": "What organelle is responsible for energy production?",
+      "options": ["Mitochondria", "Nucleus", "Ribosome", "Chloroplast"],
+      "answer": 0
+    },
+    {
+      "question": "DNA stands for?",
+      "options": ["Deoxyribonucleic Acid", "Dinucleic Acid", "Ribose Acid", "None"],
+      "answer": 0
+    },
+    {
+      "question": "The basic unit of life is?",
+      "options": ["Cell", "Atom", "Tissue", "Organ"],
+      "answer": 0
+    },
+    {
+      "question": "What carries oxygen in the blood?",
+      "options": ["Hemoglobin", "Plasma", "Leukocytes", "Platelets"],
+      "answer": 0
+    },
+    {
+      "question": "Which kingdom includes bacteria?",
+      "options": ["Monera", "Plantae", "Fungi", "Animalia"],
+      "answer": 0
+    },
+    {
+      "question": "Where does photosynthesis occur?",
+      "options": ["Chloroplast", "Mitochondria", "Nucleus", "Golgi"],
+      "answer": 0
+    },
+    {
+      "question": "Which vitamin is produced in the skin?",
+      "options": ["Vitamin D", "Vitamin A", "Vitamin C", "Vitamin B12"],
+      "answer": 0
+    },
+    {
+      "question": "Which part of the brain controls balance?",
+      "options": ["Cerebellum", "Cerebrum", "Medulla", "Pons"],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a genetic disorder?",
+      "options": ["Hemophilia", "Malaria", "Flu", "AIDS"],
+      "answer": 0
+    },
+    {
+      "question": "Which cell organelle is known as the 'suicide bag'?",
+      "options": ["Lysosome", "Peroxisome", "Nucleolus", "Ribosome"],
+      "answer": 0
+    }
   ],
   "chemistry": [
-    {"question":"Particle defining element identity?","options":["Electron","Proton","Neutron","Nucleus"],"answer":"Proton"},
-    {"question":"Example of a strong acid?","options":["CH₃COOH","HCl","NH₄OH","H₂CO₃"],"answer":"HCl"},
-    {"question":"Oxidation number of O in H₂O₂?","options":["−1","−2","+1","0"],"answer":"−1"},
-    {"question":"Avogadro's number is?","options":["6.02×10²²","6.02×10²³","6.02×10²⁴","1.66×10⁻²⁴"],"answer":"6.02×10²³"},
-    {"question":"Which bond is strongest?","options":["Ionic","Covalent","Hydrogen","Van der Waals"],"answer":"Covalent"},
-    {"question":"pH of neutral solution (25 °C)?","options":["0","7","14","1"],"answer":"7"},
-    {"question":"Type of reaction: AB → A + B?","options":["Synthesis","Decomposition","Combustion","Neutralization"],"answer":"Decomposition"},
-    {"question":"Gas that turns limewater milky?","options":["O₂","CO₂","H₂","N₂"],"answer":"CO₂"},
-    {"question":"Molar mass of NaCl?","options":["58.5 g/mol","60.5 g/mol","45 g/mol","75 g/mol"],"answer":"58.5 g/mol"},
-    {"question":"Element with highest electronegativity?","options":["Oxygen","Chlorine","Fluorine","Nitrogen"],"answer":"Fluorine"}
+    {
+      "question": "What is the atomic number of Oxygen?",
+      "options": ["8", "16", "6", "12"],
+      "answer": 0
+    },
+    {
+      "question": "Which gas is released during photosynthesis?",
+      "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+      "answer": 0
+    },
+    {
+      "question": "H₂O is a chemical formula of?",
+      "options": ["Water", "Hydrogen", "Oxygen", "Salt"],
+      "answer": 0
+    },
+    {
+      "question": "NaCl is known as?",
+      "options": ["Salt", "Acid", "Base", "Water"],
+      "answer": 0
+    },
+    {
+      "question": "Which acid is present in lemon?",
+      "options": ["Citric acid", "Acetic acid", "Sulfuric acid", "Hydrochloric acid"],
+      "answer": 0
+    },
+    {
+      "question": "The pH value of neutral solution is?",
+      "options": ["7", "0", "14", "10"],
+      "answer": 0
+    },
+    {
+      "question": "Who is the father of modern chemistry?",
+      "options": ["Lavoisier", "Newton", "Mendeleev", "Bohr"],
+      "answer": 0
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Gd", "Go"],
+      "answer": 0
+    },
+    {
+      "question": "Which element is most reactive?",
+      "options": ["Fluorine", "Helium", "Neon", "Oxygen"],
+      "answer": 0
+    },
+    {
+      "question": "Electrons are found in the?",
+      "options": ["Shells", "Nucleus", "Neutrons", "Protons"],
+      "answer": 0
+    }
   ],
   "physics": [
-    {"question":"Unit of electric current?","options":["Volt","Ohm","Ampere","Watt"],"answer":"Ampere"},
-    {"question":"1 horsepower ≈ ? watts","options":["750","746","1000","60"],"answer":"746"},
-    {"question":"Ohm's law is?","options":["V = IR","P = VI","F = ma","V = Q/C"],"answer":"V = IR"},
-    {"question":"SI unit of force?","options":["Newton","Pascal","Joule","Watt"],"answer":"Newton"},
-    {"question":"Gravity acceleration on Earth?","options":["9.8 m/s²","10 m/s²","8.9 m/s²","6 m/s²"],"answer":"9.8 m/s²"},
-    {"question":"Which is a scalar quantity?","options":["Velocity","Force","Speed","Acceleration"],"answer":"Speed"},
-    {"question":"1 cycle/sec is?","options":["1 Hz","1 kHz","1 s","1 m"],"answer":"1 Hz"},
-    {"question":"Law explaining action-reaction?","options":["Newton's 1st","2nd","3rd","Law of Inertia"],"answer":"Newton's 3rd"},
-    {"question":"Work is defined as?","options":["F × d","m × v","P × t","W/t"],"answer":"F × d"},
-    {"question":"Which wave is mechanical?","options":["Sound","Light","X‑ray","Radio"],"answer":"Sound"}
+    {
+      "question": "Speed = Distance ÷ ?",
+      "options": ["Time", "Force", "Velocity", "Mass"],
+      "answer": 0
+    },
+    {
+      "question": "Which law says F = ma?",
+      "options": ["Newton's Second Law", "Ohm’s Law", "Kepler’s Law", "Boyle’s Law"],
+      "answer": 0
+    },
+    {
+      "question": "Light travels fastest in?",
+      "options": ["Vacuum", "Water", "Glass", "Air"],
+      "answer": 0
+    },
+    {
+      "question": "Unit of current is?",
+      "options": ["Ampere", "Volt", "Ohm", "Watt"],
+      "answer": 0
+    },
+    {
+      "question": "Who invented the light bulb?",
+      "options": ["Thomas Edison", "Newton", "Faraday", "Tesla"],
+      "answer": 0
+    },
+    {
+      "question": "Which particle has a negative charge?",
+      "options": ["Electron", "Proton", "Neutron", "Nucleus"],
+      "answer": 0
+    },
+    {
+      "question": "Energy cannot be?",
+      "options": ["Created or destroyed", "Measured", "Stored", "Transferred"],
+      "answer": 0
+    },
+    {
+      "question": "The unit of force is?",
+      "options": ["Newton", "Joule", "Watt", "Pascal"],
+      "answer": 0
+    },
+    {
+      "question": "Heat travels from?",
+      "options": ["Hot to cold", "Cold to hot", "Any direction", "Top to bottom"],
+      "answer": 0
+    },
+    {
+      "question": "Which device measures current?",
+      "options": ["Ammeter", "Voltmeter", "Thermometer", "Barometer"],
+      "answer": 0
+    }
   ]
-}
+    }
