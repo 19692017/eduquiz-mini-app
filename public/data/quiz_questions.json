@@ -1,0 +1,50 @@
+{
+  "math": [
+    {"question":"What is the integral of 1/x dx?","options":["x","ln|x| + C","1/x²","eˣ"],"answer":"ln|x| + C"},
+    {"question":"limₓ→0 (sin x)/x = ?","options":["0","1","∞","Undefined"],"answer":"1"},
+    {"question":"Determinant of [[2,3],[1,4]] is?","options":["5","8","11","1"],"answer":"5"},
+    {"question":"What is d/dx[e^(2x)]?","options":["2e^(2x)","e^(x²)","x eˣ","e^(2x)+1"],"answer":"2e^(2x)"},
+    {"question":"Solution(s) to x² − 5x + 6 = 0?","options":["2","3","4","2 and 3"],"answer":"2 and 3"},
+    {"question":"If A ∩ B = ∅, sets A and B are?","options":["Equal","Finite","Disjoint","Universal"],"answer":"Disjoint"},
+    {"question":"Sum of arithmetic series: n terms?","options":["n(a + l)/2","a + (n−1)d","a rⁿ","n l"],"answer":"n(a + l)/2"},
+    {"question":"Inverse of y = 3x + 2 is?","options":["x = 3y + 2","y = (x − 2)/3","y = (x + 2)/3","y = 3x − 2"],"answer":"y = (x − 2)/3"},
+    {"question":"log₂ 8 = ?","options":["1","2","3","4"],"answer":"3"},
+    {"question":"If tan θ = 1, what is θ?","options":["30°","45°","60°","90°"],"answer":"45°"}
+  ],
+  "biology": [
+    {"question":"Function of the Golgi apparatus?","options":["Photosynthesis","Protein synthesis","Packaging proteins","Energy production"],"answer":"Packaging proteins"},
+    {"question":"Molecule storing genetic information?","options":["RNA","ATP","DNA","Glucose"],"answer":"DNA"},
+    {"question":"Phase after metaphase in mitosis?","options":["Anaphase","Prophase","Telophase","Interphase"],"answer":"Anaphase"},
+    {"question":"Which is NOT a kingdom?","options":["Plantae","Protista","Fungi","Virus"],"answer":"Virus"},
+    {"question":"Main component of cell membranes?","options":["Protein","Phospholipid","DNA","Cholesterol"],"answer":"Phospholipid"},
+    {"question":"Organ producing insulin?","options":["Liver","Pancreas","Kidney","Stomach"],"answer":"Pancreas"},
+    {"question":"Role of hemoglobin?","options":["Fight disease","Clot blood","Carry oxygen","Digest proteins"],"answer":"Carry oxygen"},
+    {"question":"Which produces the most ATP?","options":["Glycolysis","Fermentation","Krebs cycle","Electron transport chain"],"answer":"Electron transport chain"},
+    {"question":"Cells that fight infection?","options":["Red","Platelets","White","Plasma"],"answer":"White"},
+    {"question":"Genetic code carried in sequences of?","options":["Amino acids","RNA","Codons","Ribosomes"],"answer":"Codons"}
+  ],
+  "chemistry": [
+    {"question":"Particle defining element identity?","options":["Electron","Proton","Neutron","Nucleus"],"answer":"Proton"},
+    {"question":"Example of a strong acid?","options":["CH₃COOH","HCl","NH₄OH","H₂CO₃"],"answer":"HCl"},
+    {"question":"Oxidation number of O in H₂O₂?","options":["−1","−2","+1","0"],"answer":"−1"},
+    {"question":"Avogadro's number is?","options":["6.02×10²²","6.02×10²³","6.02×10²⁴","1.66×10⁻²⁴"],"answer":"6.02×10²³"},
+    {"question":"Which bond is strongest?","options":["Ionic","Covalent","Hydrogen","Van der Waals"],"answer":"Covalent"},
+    {"question":"pH of neutral solution (25 °C)?","options":["0","7","14","1"],"answer":"7"},
+    {"question":"Type of reaction: AB → A + B?","options":["Synthesis","Decomposition","Combustion","Neutralization"],"answer":"Decomposition"},
+    {"question":"Gas that turns limewater milky?","options":["O₂","CO₂","H₂","N₂"],"answer":"CO₂"},
+    {"question":"Molar mass of NaCl?","options":["58.5 g/mol","60.5 g/mol","45 g/mol","75 g/mol"],"answer":"58.5 g/mol"},
+    {"question":"Element with highest electronegativity?","options":["Oxygen","Chlorine","Fluorine","Nitrogen"],"answer":"Fluorine"}
+  ],
+  "physics": [
+    {"question":"Unit of electric current?","options":["Volt","Ohm","Ampere","Watt"],"answer":"Ampere"},
+    {"question":"1 horsepower ≈ ? watts","options":["750","746","1000","60"],"answer":"746"},
+    {"question":"Ohm's law is?","options":["V = IR","P = VI","F = ma","V = Q/C"],"answer":"V = IR"},
+    {"question":"SI unit of force?","options":["Newton","Pascal","Joule","Watt"],"answer":"Newton"},
+    {"question":"Gravity acceleration on Earth?","options":["9.8 m/s²","10 m/s²","8.9 m/s²","6 m/s²"],"answer":"9.8 m/s²"},
+    {"question":"Which is a scalar quantity?","options":["Velocity","Force","Speed","Acceleration"],"answer":"Speed"},
+    {"question":"1 cycle/sec is?","options":["1 Hz","1 kHz","1 s","1 m"],"answer":"1 Hz"},
+    {"question":"Law explaining action-reaction?","options":["Newton's 1st","2nd","3rd","Law of Inertia"],"answer":"Newton's 3rd"},
+    {"question":"Work is defined as?","options":["F × d","m × v","P × t","W/t"],"answer":"F × d"},
+    {"question":"Which wave is mechanical?","options":["Sound","Light","X‑ray","Radio"],"answer":"Sound"}
+  ]
+}
