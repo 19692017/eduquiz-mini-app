@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #ffffff);
+  text-align: center;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.subject-buttons a, button {
+  display: block;
+  margin: 1em auto;
+  padding: 10px 20px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+input {
+  padding: 0.5em;
+  font-size: 1em;
+  margin: 1em;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
