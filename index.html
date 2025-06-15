@@ -1,84 +1,16 @@
-<!DOCTYPE html><html lang="en">
+
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EduQuiz Mini App</title>
-  <script src="https://telegram.org/js/telegram-web-app.js"></script>
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 20px;
-      background-color: #f5f5f5;
-    }
-    .section {
-      display: none;
-    }
-    .visible {
-      display: block;
-    }
-    button {
-      display: block;
-      width: 100%;
-      margin: 10px 0;
-      padding: 15px;
-      font-size: 16px;
-      border: none;
-      border-radius: 8px;
-      background-color: #4a90e2;
-      color: white;
-    }
-    .back-btn {
-      background-color: #777;
-    }
-  </style>
+  <title>EduQuiz Game</title>
 </head>
 <body>
-  <h1>EduQuiz Mini App</h1>  <div id="main-menu" class="section visible">
-    <button onclick="goTo('subject-selector')">🎯 Start Quiz</button>
-    <button onclick="goTo('spelling-game')">🧠 Spelling Game</button>
-    <button onclick="goTo('leaderboard')">🏆 Leaderboard</button>
-  </div>  <div id="subject-selector" class="section">
-    <h2>Select a Subject</h2>
-    <button onclick="startQuiz('Math')">📐 Math</button>
-    <button onclick="startQuiz('Biology')">🧬 Biology</button>
-    <button onclick="startQuiz('Chemistry')">⚗️ Chemistry</button>
-    <button onclick="startQuiz('Physics')">🔭 Physics</button>
-    <button class="back-btn" onclick="goTo('main-menu')">⬅️ Back</button>
-  </div>  <div id="quiz" class="section">
-    <h2 id="quiz-subject"></h2>
-    <p id="quiz-question">Question goes here</p>
-    <button onclick="answerQuiz(true)">✅ Option A</button>
-    <button onclick="answerQuiz(false)">❌ Option B</button>
-    <button class="back-btn" onclick="goTo('subject-selector')">⬅️ Back</button>
-  </div>  <div id="spelling-game" class="section">
-    <h2>Spelling Game</h2>
-    <p>Spell the word: <strong>_a_</strong></p>
-    <button>c</button>
-    <button>t</button>
-    <button>r</button>
-    <button class="back-btn" onclick="goTo('main-menu')">⬅️ Back</button>
-  </div>  <div id="leaderboard" class="section">
-    <h2>Leaderboard</h2>
-    <ol>
-      <li>@student1 - 100 pts</li>
-      <li>@student2 - 80 pts</li>
-      <li>@student3 - 75 pts</li>
-    </ol>
-    <button class="back-btn" onclick="goTo('main-menu')">⬅️ Back</button>
-  </div>  <script>
-    function goTo(id) {
-      document.querySelectorAll('.section').forEach(div => div.classList.remove('visible'));
-      document.getElementById(id).classList.add('visible');
-    }
-
-    function startQuiz(subject) {
-      document.getElementById('quiz-subject').textContent = subject + ' Quiz';
-      document.getElementById('quiz-question').textContent = 'Sample question for ' + subject + '?';
-      goTo('quiz');
-    }
-
-    function answerQuiz(correct) {
-      alert(correct ? '✅ Correct!' : '❌ Wrong!');
-    }
-  </script></body>
-  </html>
+  <h1>Select a Subject</h1>
+  <ul>
+    <li><a href="quiz.html?subject=math">Math</a></li>
+    <li><a href="quiz.html?subject=biology">Biology</a></li>
+    <li><a href="quiz.html?subject=chemistry">Chemistry</a></li>
+    <li><a href="quiz.html?subject=physics">Physics</a></li>
+  </ul>
+</body>
+</html>
