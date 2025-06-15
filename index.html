@@ -7,16 +7,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🎓 Welcome to EduQuiz Game</h1>
-  <p>Select a subject to begin:</p>
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_d55e8c1f16.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 
-  <div class="subject-buttons">
+  <h1>🎓 Welcome to EduQuiz Game</h1>
+  <p>Enter your name to start:</p>
+  <input type="text" id="username" placeholder="Your name" />
+  <button onclick="saveName()">Continue</button>
+
+  <div class="subject-buttons" id="subjectButtons" style="display:none;">
     <a href="quiz.html?subject=math">🧮 Math</a>
     <a href="quiz.html?subject=biology">🧬 Biology</a>
     <a href="quiz.html?subject=chemistry">🧪 Chemistry</a>
     <a href="quiz.html?subject=physics">🔭 Physics</a>
     <a href="leaderboard.html">🏆 Leaderboard</a>
   </div>
+
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
