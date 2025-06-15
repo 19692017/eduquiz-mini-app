@@ -2,29 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EduQuiz Game</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <audio autoplay loop>
-    <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_d55e8c1f16.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-  <h1>🎓 Welcome to EduQuiz Game</h1>
-  <p>Enter your name to start:</p>
-  <input type="text" id="username" placeholder="Your name" />
-  <button onclick="saveName()">Continue</button>
-
-  <div class="subject-buttons" id="subjectButtons" style="display:none;">
-    <a href="quiz.html?subject=math">🧮 Math</a>
-    <a href="quiz.html?subject=biology">🧬 Biology</a>
-    <a href="quiz.html?subject=chemistry">🧪 Chemistry</a>
-    <a href="quiz.html?subject=physics">🔭 Physics</a>
-    <a href="leaderboard.html">🏆 Leaderboard</a>
+  <div class="container">
+    <h1>Welcome to EduQuiz Game</h1>
+    <div id="quiz-container">
+      <p id="question"></p>
+      <div id="options"></div>
+      <button onclick="nextQuestion()">Next</button>
+    </div>
+    <p id="score"></p>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Select Subject</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Select a Subject</h1>
+    <button onclick="selectSubject('math')">Math</button>
+    <button onclick="selectSubject('biology')">Biology</button>
+    <button onclick="selectSubject('chemistry')">Chemistry</button>
+    <button onclick="selectSubject('physics')">Physics</button>
+  </div>
+  <script>
+    function selectSubject(subject) {
+      localStorage.setItem('selectedSubject', subject);
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>

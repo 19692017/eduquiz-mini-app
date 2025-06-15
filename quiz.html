@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduQuiz Game</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Quiz Loading...</h1>
+  <div class="container">
+    <h1 id="subject-title">Loading...</h1>
+    <div id="quiz-box">
+      <p id="question"></p>
+      <ul id="options"></ul>
+    </div>
+    <p id="feedback"></p>
+    <button id="next-btn">Next Question</button>
+  </div>
   <script src="quiz.js"></script>
 </body>
 </html>

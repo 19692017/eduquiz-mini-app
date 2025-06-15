@@ -2,22 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Leaderboard</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🏆 Leaderboard</h1>
-  <ul id="scores"></ul>
-  <script>
-    const scores = JSON.parse(localStorage.getItem("eduquiz_scores")) || [];
-    scores.sort((a, b) => b.score - a.score);
-    const ul = document.getElementById("scores");
-    scores.forEach(s => {
-      const li = document.createElement("li");
-      li.textContent = `${s.subject}: ${s.name} - ${s.score}`;
-      ul.appendChild(li);
-    });
-  </script>
+  <div class="container">
+    <h1>Leaderboard</h1>
+    <ul id="leaderboard"></ul>
+  </div>
+  <script src="leaderboard.js"></script>
 </body>
 </html>
