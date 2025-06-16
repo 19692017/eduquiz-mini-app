@@ -1,18 +1,1 @@
-{
-  "math": [
-    {"question": "What is the derivative of x²?", "options": ["2x", "x", "x²", "1"], "answer": 0},
-    {"question": "Solve: 5 + 3 × 2", "options": ["16", "11", "13", "10"], "answer": 1}
-  ],
-  "biology": [
-    {"question": "What is the powerhouse of the cell?", "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi body"], "answer": 1},
-    {"question": "What carries genetic information?", "options": ["Protein", "Lipids", "DNA", "RNA"], "answer": 2}
-  ],
-  "chemistry": [
-    {"question": "H₂O is the chemical formula for?", "options": ["Salt", "Oxygen", "Water", "Hydrogen"], "answer": 2},
-    {"question": "pH scale measures?", "options": ["Temperature", "Acidity", "Pressure", "Volume"], "answer": 1}
-  ],
-  "physics": [
-    {"question": "Speed = ?", "options": ["Distance/Time", "Mass × Acceleration", "Force/Area", "Work × Time"], "answer": 0},
-    {"question": "What is unit of force?", "options": ["Watt", "Newton", "Joule", "Pascal"], "answer": 1}
-  ]
-}
+{"math": [], "biology": [], "chemistry": [], "physics": []}
